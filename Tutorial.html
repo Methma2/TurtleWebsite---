@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Ticket Booking</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <style>
+        body{
+        font-family: ' G111 Sans', '6111 sans HT', Cel1bri, 'Trebuchet ws', sans-serif;
+        background-color: rgb(134, 27, 27);
+        color: white;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            font: larger;
+        }
+        </style>
+    <h1>Ticket Booking</h1>
+    <c>as<label for="adult">Number of Adult Tickets:</label></c>
+    <input type="number" id="adult" min="0" value="0"><br>
+    <br>
+    <br>
+    <br>
+    <label for="children">Number of Children Tickets:</label>
+    <input type="number" id="children" min="0" value="0"><br>
+    <br>
+    <br>
+    <br>
+    <label for="senior">Number of Senior Citizen Tickets:</label>
+    <input type="number" id="senior" min="0" value="0"><br>
+    <br>
+    <br>
+    <br>
+    <button onclick="calculateTicketCost()">Calculate</button>
+    <p id="output"></p>
+    <script>
+    function calculateTicketCost() {
+        const adultTickets = parseInt(document.getElementById("adult").value);
+        const childrenTickets = parseInt(document.getElementById("children").value);
+        const seniorTickets = parseInt(document.getElementById("senior").value);
+   
+        const adultTicketCost = 90;
+        const childrenTicketCost = 40;
+        const seniorTicketCost = 60;
+   
+        const totalCost = (adultTickets * adultTicketCost) + (childrenTickets * childrenTicketCost) + (seniorTickets * sen`iorTicketCost);
+   
+        document.getElementById("output").textContent = `Total Cost: LKR ${totalCost.toFixed(2)}`;
+    }
+</script>
+</body>
+</html>

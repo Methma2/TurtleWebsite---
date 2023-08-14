@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Payment.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="buy">
+        <div class="tickets">
+          <h1><center>Payment</center></h1>
+          </div>
+          </div>
+       
+    <div class="box">
+        <div class="info">
+            <h1 class="Topic"></h1>
+    
+    <form onsubmit="return validateForm()" id="form">
+        <label for="fullName">Card number<span class="required"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>
+      <input class="inputBox" type="text" id="fullName" required>
+      <br>
+      <br>
+      <center><img src="./images/card_img.png" alt=""></center>
+    
+    <br>
+    
+    <div>
+    <label for="mobileNumber">Expiry date<span class="required"></span>&nbsp&nbsp&nbsp:</label>
+        <div class="iti">
+            <input class="inputBox"   type="tel" id="mobileNumber" name="phone">
+        </div>
+    </div>
+    <h4 class="phone-label"></h4>
+    <br>
+    <label for="email">CVC/CVV  :</label>
+      </section>
+      
+     
+    <input    class="inputBox" type="email" id="email" required><br>
+    <br><br>
+
+    <label for="confirmEmail">Name on card  :</label>
+    
+    <input class="inputBox" type="email" id="confirmEmail" required><br>
+<br>
+<br>
+    
+   
+    
+  </form>
+
+  <section id="summary">
+    
+    <table>
+        <h2 class="Main">Summary Of your Ticketing</h2>
+      <tr>
+        <td class="td">Date &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp :  &nbsp&nbsp</td>
+        <td id="summaryDate"></td>
+      </tr>
+      <tr>
+        <td class="td">Time &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp:  &nbsp&nbsp</td>
+        <td id="summaryTime"></td>
+      </tr>
+      <tr>
+        <td class="td">Duration&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp :  &nbsp&nbsp</td>
+        <td id="summaryDuration"></td>
+      </tr>
+      <tr>
+        <td class="td">Tickets&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:  &nbsp&nbsp</td>
+        <td id="summaryTickets"></td>
+      </tr>
+      <tr>
+        <td class="td">Total Payable :  &nbsp&nbsp</td>
+        <td id="summaryTotal"></td>
+      </tr>
+    </table>
+    <button  class="Button" id="continueButton" disabled><font color=white><a href="summary.html"> Continue with purchase</a></font></button>
+      <div class="table">
+    
+        <script src="payment.js"></script>
+</body>
+</html>

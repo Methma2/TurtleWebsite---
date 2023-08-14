@@ -1,0 +1,231 @@
+#Nav{
+    background: black;
+    height: 80px;
+    width: 100%;
+
+    
+}
+
+
+.home{
+    /* background: rgb(204, 153, 87); */
+    background: url(images/treats.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+}
+
+
+#Nav UL{
+    float: right;
+    margin-right: 20px;
+}
+
+#Nav UL LI{
+    display: inline;
+    line-height: 80px;
+    margin: 0 5px;
+    color:rgb(17, 77, 197);        
+
+}
+#Nav UL LI a{
+    color: rgb(22, 87, 145);
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.LOGO{
+    color: aqua;
+    font-size: 90px;
+    line-height: 80px;
+    /* width: 40px; */
+}
+#h1
+{
+    
+    text-align: center;
+    font-size: 150px;
+    padding: 25px ;
+    color: rgba(240, 248, 255, 0.578);
+}
+#h1:hover{
+    color: #71b6f3;
+}
+section .leftBox {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+/* Styling the background of
+    left floating section */
+section .leftBox .content {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    transition: .5s;
+}
+/* Styling the hover effect 
+    of left floating section */
+section .leftBox .content:hover {
+    background: #16d7f5;
+}
+/* Styling the header of left
+    floating section */
+section .leftBox .content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+/* Styling the paragraph of
+    left floating section */
+section .leftBox .content p {
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 20px;
+}
+/* Styling the three events section */
+/* Styling the three events section */
+section .events { 
+    position: center;
+    width: 50%;
+    height: 100%;
+    /* background: rgba(0, 0, 0, 0.5); */
+    float: right;
+    box-sizing: border-box;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+/* Styling the links of
+/* the events section  */
+section .events ul {
+    position: center;
+    top: 10%;
+  
+    margin: 0;
+    padding: 20px;
+   
+}
+/* /* Styling the lists of the event section  */
+section .events ul li {
+    list-style: none;
+    background: #fff;
+    height: 150px;
+    margin: 15px 0;
+}
+/* /* Styling the time class of events section  */
+section .events ul li .time {
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #262626;
+    width: 30%;
+    height: 100%;
+   
+    float: left;
+    text-align: center;
+    transition: .5s;
+}
+/* Styling the hover effect
+    /* of events section  */
+section .events ul li:hover .time {
+    background: rgb(249, 235, 210);
+    height: 75%;
+}
+/* Styling the header of time
+    /* class of events section  */
+section .events ul li .time h2 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 60px;
+    line-height: 30px;
+    
+}
+/* Styling the texts of time
+/* class of events section * */
+section .events ul li .time h2 span {
+    font-size: 30px;
+}
+
+/* Styling the details
+/* class of events section  */
+section .events ul li .details {
+    padding: 20px;
+    background: rgb(249, 235, 210);
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+/* Styling the header of the
+/* details class of events section * */
+section .events ul li .details h3 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+/* Styling the lists of details
+/* class of events section * */
+section .events ul li .details p {
+    position: relative;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 16px;
+}
+/* Styling the links of details
+/* class of events section * */
+section .events ul li .details a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1.5px solid #262626;
+    margin-top: 8px;
+    font-size: 18px;
+    transition: .5s;
+}
+/* /* Styling the details class's hover effect * */
+section .events ul li .details a:hover {
+    background: wheat;
+    color: #fff;
+    height: 20%;
+}
+footer{
+    background-color: black;
+    color: antiquewhite;
+    padding: 60px;
+    height: 25px;
+}
+.footernav{
+    margin-left: 30%;
+    
+}
+.footernav ul{
+
+display: flex;
+text-align: center;
+margin-right: 10%;
+}
+.footernav ul li a{
+    color: aqua;
+    text-decoration: none;
+    margin: 40px;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: o.5s;
+    border-radius: 10px;
+
+}
+.footernav ul li a:hover{
+    background-color: beige;
+    color: black;
+    padding: 10px;
+}

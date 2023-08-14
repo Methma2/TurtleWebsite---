@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Details.css">
+    <title>International Telephone Input</title>
+
+    
+</head>
+<body>
+    <div class="buy">
+        <div class="tickets">
+          <h1><center>BOOK TICKETS</center></h1>
+          </div>
+          </div>
+       
+    <div class="box">
+        <div class="info">
+            <h1 class="Topic"></h1>
+    
+    <form onsubmit="return validateForm()" id="form">
+        <label for="fullName">Full Name<span class="required"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>
+      <input class="inputBox" type="text" id="fullName" required>
+    
+    <br>
+    <br>
+    <div>
+    <label for="mobileNumber">Mobile Number<span class="required"></span>&nbsp&nbsp&nbsp:</label>
+        <div class="iti">
+            <input class="inputBox"   type="tel" id="mobileNumber" name="phone">
+        </div>
+    </div>
+    <h4 class="phone-label"></h4>
+    <br>
+    <label for="email">Email&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>
+     
+    <input    class="inputBox" type="email" id="email" required><br>
+    <br><br>
+
+    <label for="confirmEmail">Confirm Email&nbsp&nbsp&nbsp&nbsp:</label>
+    
+    <input class="inputBox" type="email" id="confirmEmail" required><br>
+<br>
+<br>
+    <label for="gender">Gender&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>
+    <select class="inputBox" id="gender">
+      <option value="">Select</option>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Female">Lesbian</option>
+      <option value="Female">Non- binary</option>
+      <option value="Female">Transgender</option>
+    </select><br>
+    <br><br>
+    
+   <center><button type="submit" ><a href="Payment.html">Continue</a></button></center>
+    
+  </form>
+    </div>
+</div> 
+<section id="summary">
+    <h2 class="Main">Summary Of your Ticketing</h2>
+    <center>
+    <table>
+      <tr>
+        <td class="td">Date &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp :  &nbsp&nbsp</td>
+        <td id="summaryDate"></td>
+      </tr>
+      <tr>
+        <td class="td">Time &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp:  &nbsp&nbsp</td>
+        <td id="summaryTime"></td>
+      </tr>
+      <tr>
+        <td class="td">Duration&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp :  &nbsp&nbsp</td>
+        <td id="summaryDuration"></td>
+      </tr>
+      <tr>
+        <td class="td">Tickets&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:  &nbsp&nbsp</td>
+        <td id="summaryTickets"></td>
+      </tr>
+      <tr>
+        <td class="td">Total Payable :  &nbsp&nbsp</td>
+        <td id="summaryTotal"></td>
+      </tr>
+    </table>
+</center>
+    <button  class="Button" id="continueButton"><font color=white><a href="Payment.html"> with purchase</a></font></button>
+      <div class="table">
+
+      </div>
+  </section>
+    
+
+    <script src="Detail.js"></script>
+</body>
+</html>

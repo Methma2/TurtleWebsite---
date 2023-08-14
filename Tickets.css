@@ -1,0 +1,166 @@
+#Nav{
+    background: black;
+    height: 125px;
+    width: 100%;
+  
+    
+  }
+  
+  
+
+  
+  #Nav UL{
+      float: right;
+      margin-right: 40px;
+  }
+  
+  #Nav UL LI{
+      display: inline;
+      line-height: 80px;
+      margin: 0 5px;
+      color:white;        
+  
+  }
+  #Nav UL LI a{
+      color: rgb(239, 242, 244);
+      text-decoration: none;
+      padding: 15px;
+      font-size: 18px;
+      line-height: 10px;
+  }
+  .LOGO{
+      color: aqua;
+      font-size: 100px;
+      line-height: 80px;
+      /* width: 40px; */
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.buy{
+    width: 70%;
+    height: 50%;
+  
+
+    box-sizing: border-box;
+   
+}
+/*The background of the bos*/
+.buy .tickets{
+    color: rgb(0, 4, 8);
+    background-color: rgb(117, 36, 11);
+    padding: 40px;
+    
+    transition: .5s;
+    font-size: 40px;
+   
+}
+.increment{
+    width: 3%;
+    background-color: rgb(0, 174, 255);
+}
+.decrement{
+    width: 3%;
+    background-color: rgb(255, 0, 25);
+    
+}
+.Heading{
+    text-align: center;
+    font-size: 75px;
+    color: white;
+    background-color: green;
+    
+}
+.Box{
+    width: 70%;
+    height: 75%;
+    padding: 50px;
+    
+    box-sizing: border-box;
+    margin-top: -1%;
+}
+/*The background of the bos*/
+.Box .info{
+    color: rgb(138, 148, 70);
+    background: rgb(163, 137, 19);
+    padding: 40px;
+    
+    transition: .5s;
+    font-size: 30px;
+   
+}
+.category{
+    font-size: 30px;
+    color: black;
+}
+.Main{
+    text-decoration: underline;
+    color: rgb(5, 5, 56);
+    
+}
+.Time{
+    color: black;
+    font-size: 30px;
+}
+.Topic{
+    color: rgb(244, 241, 241);
+}
+.td{
+    color: black;
+    font-size: 30px;
+}
+.Button{
+    width: 160px;
+    height: 40px;
+    background: rgba(1, 41, 3, 0.944);
+    border: none;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+.Back{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #1f7a7a 65%, #163150 35%);
+}
+footer{
+    background-color: black;
+    color: antiquewhite;
+    padding: 60px;
+  }
+  .footernav{
+    margin-left: 30%;
+    
+  }
+  .footernav ul{
+  
+  display: flex;
+  text-align: center;
+  margin-right: 10%;
+  }
+  .footernav ul li a{
+    color: aqua;
+    text-decoration: none;
+    margin: 40px;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: o.5s;
+    border-radius: 10px;
+  
+  }
+  .footernav ul li a:hover{
+    background-color: beige;
+    color: black;
+    padding: 10px;
+  }
+  
